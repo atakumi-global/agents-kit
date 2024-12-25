@@ -136,6 +136,7 @@ services:
   # Add the Ollama init service
   ollama-init:
     <<: *init-ollamanomic-embed-text
+    container_name: ollama-init
     restart: "no"
     depends_on:
       - ollama
