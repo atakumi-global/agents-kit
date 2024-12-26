@@ -16,7 +16,7 @@
 </p>
 <br/>
 
-## What are AI Agents?
+# 🤖 What are AI Agents?
 
 AI Agents are software programs designed to perform tasks autonomously or semi-autonomously using machine learning and artificial intelligence. They can process and analyze data, make decisions, and interact with users or other systems without direct human intervention. Their capabilities can range from simple automated responses to complex problem-solving and decision-making processes, depending on their design and the data they work with.
 
@@ -31,9 +31,22 @@ Here’s a basic diagram to give you an idea of what an AI agent looks like:
 <img width="700" alt="" src="">
 </div>
 
-<br/>
 
 # Tools included in the Agents Kit
+
+### What’s included
+
+✅ [**Open WebUI**](https://openwebui.com/) - ChatGPT-like interface to privately interact with your local models and N8N agents
+
+✅ [**Qdrant**](https://qdrant.tech/) - Open-source, high performance vector store with an comprehensive API
+
+✅ [**PostgreSQL**](https://www.postgresql.org/) -  Workhorse of the Data Engineering world, handles large amounts of data safely.
+
+✅ [**n8n**](https://n8n.io/) - Low-code platform with over 400 integrations and advanced AI components
+
+✅ [**Ollama**](https://ollama.com/) - Cross-platform LLM platform to install and run the latest local LLMs
+
+
 ## OpenWebUI
 Get ready to revolutionize your AI experience with OpenWebUI! This open-source web interface offers unparalleled flexibility and usability, making it a game-changer for businesses. With OpenWebUI, you can seamlessly interact with large language models (LLMs), such as Ollama and other OpenAI-compatible APIs, all through an intuitive graphical interface.
 
@@ -56,26 +69,40 @@ Discover how PostgreSQL is transforming AI applications! This powerful, open-sou
 
 In essence, Qdrant's focus is on specialized vector search capabilities, while PostgreSQL excels in managing structured and semi-structured data, offering a broader range of database functionalities.
 
-
 ## n8n
-n8n is an innovative, open-source workflow automation platform transforming how businesses connect and automate their processes. With n8n, you can seamlessly integrate various tools and applications, creating custom workflows that streamline operations and optimize efficiency1.
+n8n is an innovative, open-source workflow automation platform transforming how businesses connect and automate their processes. With n8n, you can seamlessly integrate various tools and applications, creating custom workflows that streamline operations and optimize efficiency.
 
 ### Why we selected n8n over any other.
-Flexibility: Tailor workflows to your unique business needs without complex coding.
-Scalability: Whether you're a start-up or an enterprise, n8n scales with your growth.
-Cost-Effectiveness: Automate repetitive tasks, reducing manual labor and focusing more on innovation.
-Integration: Connect hundreds of apps and services, ensuring smooth data flow and productivity.
+- Flexibility: Tailor workflows to your unique business needs without complex coding.
+- Scalability: Whether you're a start-up or an enterprise, n8n scales with your growth.
+- Cost-Effectiveness: Automate repetitive tasks, reducing manual labor and focusing more on innovation.
+- Integrations: Connect hundreds of apps and services, ensuring smooth data flow and productivity.
 
 Embrace the future of automation with n8n and elevate your business to new heights. Ready to transform your operations? Discover the power of n8n today!
 
-## Ollama
+## Ollama 
 Ollama offers a cutting-edge local inference platform that lets businesses run large language models right on their own machines. Imagine the power of advanced AI models like at your fingertips, all without relying on cloud computing. With Ollama, you get enhanced data privacy, retain your own data, the highest level of security and cost efficiency by keeping your sensitive data in-house.
 
 Discover the ease of running state-of-the-art AI models locally, reduce cloud dependency, and elevate your AI game with Ollama. Whether you're enhancing customer interactions, generating insights, or creating AI-driven content, Ollama is your go-to solution for all AI needs.
 
-## Instructons to use this repo
+# Instructions to installation & maintenance
+This kit is developed to run throug Coolify on a local machine with a suitable Nvidia Grpahics Card . 
 
-....
+> [!NOTE]
+> If you have not used your Nvidia GPU with Docker before, please follow the
+> [Ollama Docker instructions](https://github.com/ollama/ollama/blob/main/docs/docker.md).
 
-<br/>
+---
+## ⚡️ Quick start and usage
+The main component of the Agents Kit is a docker compose file ready for deployment through Coolify. It is pre-configured with network and disk so there isn’t much else you need to install. After completing the installation steps above, follow the steps below
+to get started. The system is setup to have appropriate sub domains. After this is setup open n8n in your browser to set up a local n8n account. You’ll only have to do this once. Additionally open openwebui in your browser to set up a local OpenWebUI account. 
 
+## Upgrading
+Click on redeploy. Coolify will automatically restart the system and download the lastest releases.
+
+## Tips & tricks
+
+### Accessing local files
+
+This Agents Kit will create a shared folder (by default, located in the same directory) which is mounted to the n8n container and
+allows n8n to access files on disk. This folder within the n8n container is located at `/data/shared` -- this is the path you’ll need to use in nodes that interact with the local filesystem.
