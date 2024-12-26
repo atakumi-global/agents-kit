@@ -58,9 +58,7 @@ OpenWebUI allow you to effortlessly use AI models locally, integrating various t
 Why two databases you may ask. Qdrant and Postgres serve distinct purposes in AI and data management, each excelling in different areas:
 
 ### QDrant
-<div align="center" style="margin-top: 25px;margin-bottom:25px">
-<img width="700" alt="" src="https://static.atakumi.com/Agents Kit/qdrant-logo.svg">
-</div>
+![Qdrant](https://static.atakumi.com/Agents Kit/qdrant-logo.svg)
 
 [**Qdrant**](https://qdrant.tech/) is a specialized vector database designed for high-performance vector similarity search. It's ideal for AI applications that require handling large-scale high-dimensional vector data, such as recommendation engines, natural language processing, and image search. Qdrant is built to deliver fast, accurate results for complex queries against vector data.
 
