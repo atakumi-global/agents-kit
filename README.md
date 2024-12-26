@@ -60,7 +60,8 @@ Why two databases you may ask. Qdrant and Postgres serve distinct purposes in AI
 ### QDrant
 <div align="center" style="margin-top: 25px;margin-bottom:25px">
 <img width="700" alt="" src="https://static.atakumi.com/Agents Kit/qdrant-logo.svg">
-</div>[**Qdrant**](https://qdrant.tech/) is a specialized vector database designed for high-performance vector similarity search. It's ideal for AI applications that require handling large-scale high-dimensional vector data, such as recommendation engines, natural language processing, and image search. Qdrant is built to deliver fast, accurate results for complex queries against vector data.
+</div>
+[**Qdrant**](https://qdrant.tech/) is a specialized vector database designed for high-performance vector similarity search. It's ideal for AI applications that require handling large-scale high-dimensional vector data, such as recommendation engines, natural language processing, and image search. Qdrant is built to deliver fast, accurate results for complex queries against vector data.
 
 Used for top AI solutions by industry leaders Qdrant transforms AI projects. Qdrant is a high-performance, Rust-powered vector database and search engine. It’s designed to handle massive-scale AI applications, offering advanced, open-source vector similarity search technology. With Qdrant, you can seamlessly store and search high-dimensional vectors, making it ideal for applications like recommendation systems, image search, and anomaly detection.
 
