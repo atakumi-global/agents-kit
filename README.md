@@ -55,8 +55,8 @@
 
 <br/>
 
-  ![OpenWebUI](https://static.atakumi.com/agents/openweui.svg)
-
+  ![OpenWebUI](https://github.com/atakumi-global/agents-kit/blob/main/assets/openweui.svg?raw=true)
+  
   Get ready to revolutionize your AI experience with [**Open WebUI**](https://openwebui.com/)! This open-source web interface offers unparalleled flexibility and usability, making it a game-changer for businesses. With OpenWebUI, you can seamlessly interact with large language models (LLMs), such as Ollama and other OpenAI-compatible APIs, all through an intuitive graphical interface.
 
   OpenWebUI allow you to effortlessly use AI models locally, integrating various third-party tools, and even leveraging voice and video chat capabilities. OpenWebUI's enhanced usability, multilingual support, and community-driven growth ensure you have everything you need to unlock AI's full potential.
