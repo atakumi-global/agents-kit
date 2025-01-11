@@ -64,7 +64,7 @@
 
 <br/>
 
-  ![Qdrant](https://static.atakumi.com/agents/qdrant-logo.svg)
+  ![Qdrant](https://github.com/atakumi-global/agents-kit/blob/main/assets/qdrant-logo.svg?raw=true)
 
   [**Qdrant**](https://qdrant.tech/) is a specialized vector database designed for high-performance vector similarity search. It's ideal for AI applications that require handling large-scale high-dimensional vector data, such as recommendation engines, natural language processing, and image search. Qdrant is built to deliver fast, accurate results for complex queries against vector data.
 
@@ -75,7 +75,7 @@
 
 <br/>
 
-  ![PostgreSQL](https://static.atakumi.com/agents/postgresql_logo.svg) 
+  ![PostgreSQL](https://github.com/atakumi-global/agents-kit/blob/main/assets/postgresql_logo.svg?raw=true) 
   
   Postgres, on the other hand, is a general-purpose relational database known for its robustness and extensibility. While it can handle AI workloads and large datasets effectively, its primary strength lies in traditional structured data management, supporting complex queries, and ensuring data integrity. [**Postgres**](https://www.postgresql.org/) is highly versatile and can integrate with various AI tools and frameworks, making it a reliable choice for diverse data management tasks.
 
@@ -86,7 +86,7 @@
 
 <br/>
 
-  ![n8n](https://static.atakumi.com/agents/n8n_logo.svg) 
+  ![n8n](https://github.com/atakumi-global/agents-kit/blob/main/assets/n8n_logo.svg?raw=true) 
   
   [**n8n**](https://n8n.io/) is an innovative, open-source workflow automation platform transforming how businesses connect and automate their processes. With n8n, you can seamlessly integrate various tools and applications, creating custom workflows that streamline operations and optimize efficiency.
 
@@ -101,7 +101,7 @@
 
 <br/>
 
- ![Ollama](https://static.atakumi.com/agents/ollama_logo.svg)
+ ![Ollama](https://github.com/atakumi-global/agents-kit/blob/main/assets/ollama_logo.svg?raw=true)
 
   [**Ollama**](https://ollama.com/) offers a cutting-edge local inference platform that lets businesses run large language models right on their own machines. Imagine the power of advanced AI models like at your fingertips, all without relying on cloud computing. With Ollama, you get enhanced data privacy, retain your own data, the highest level of security and cost efficiency by keeping your sensitive data in-house.
 
