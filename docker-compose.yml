@@ -47,7 +47,7 @@ x-init-ollama: &init-ollama
 
 services:
   open-webui:
-    image: ghcr.io/open-webui/open-webui:git-614379a-ollama
+    image: ghcr.io/open-webui/open-webui:git-cd39040-cuda
     networks: ['demo']
     restart: unless-stopped
     container_name: open-webui
