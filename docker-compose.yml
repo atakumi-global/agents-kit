@@ -123,7 +123,8 @@ services:
     volumes:
       - qdrant_storage:/qdrant/storage
     environment:
-      - API-KEY
+      - QDRANT__SERVICE__AUTH_ENABLED=true
+      - QDRANT__SERVICE__API_KEY=${QDRANT_API_KEY}
 
   # Add the Ollama service here - using GPU version
   ollama:
