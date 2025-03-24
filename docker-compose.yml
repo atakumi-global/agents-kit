@@ -122,6 +122,8 @@ services:
       - 6333:6333
     volumes:
       - qdrant_storage:/qdrant/storage
+    environment:
+      - API-KEY
 
   # Add the Ollama service here - using GPU version
   ollama:
